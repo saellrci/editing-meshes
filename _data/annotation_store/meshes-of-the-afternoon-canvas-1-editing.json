@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://saellrci.github.io/editing-meshes/annotations/meshes-of-the-afternoon-canvas-1-editing.json",
+  "type": "AnnotationPage",
+  "label": "Editing",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "meshes-of-the-afternoon-canvas-1-editing-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "During these first few seconds we get the first idea of how unconventional this short may be by the way a jump cut is edited in the film. A flower is placed on the ground by a hand and mid way through the hand being pulled back up it is gone. This may have been included to give the audience a sense of unease and anticipation for what is to come.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://saellrci.github.io/editing-meshes/meshes-of-the-afternoon/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://saellrci.github.io/editing-meshes/meshes-of-the-afternoon/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "21.0,24.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "meshes-of-the-afternoon-canvas-1-editing-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "In this sequence we see as the women in Meshes of the Afternoon chases after the hooded figure that picked up a flower that had been placed on the ground. However no matter how fast she goes or how slow the figure moves around the corner she doesnt seem to be able to catch up to it. The way in which this sequence was put together emphasises the effort the women is using to try and follow the figure as if to say that no matter how hard she tried, she will never reach it or what it has no matter how fast she moves or how slow it moves.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": {
+          "id": "https://saellrci.github.io/editing-meshes/meshes-of-the-afternoon/canvas-1/canvas",
+          "type": "Canvas",
+          "partOf": [
+            {
+              "id": "https://saellrci.github.io/editing-meshes/meshes-of-the-afternoon/manifest.json",
+              "type": "Manifest"
+            }
+          ]
+        },
+        "selector": {
+          "type": "RangeSelector",
+          "t": "216.0,243.0"
+        }
+      }
+    }
+  ]
+}
